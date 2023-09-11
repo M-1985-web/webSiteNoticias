@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ActualiWeb</title>
+</head>
+
+<body>
+    <header>
+        <h1>ActualiWeb</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="noticia1.html">"Avances Revolucionarios en la Inteligencia Artificial: Implicaciones para el Futuro"</a></li>
+                <!-- Agrega más enlaces a otras noticias aquí -->
+            </ul>
+        </nav>
+    </header>
+
+    <section class="noticia">
+        <h2>"Avances Revolucionarios en la Inteligencia Artificial: Implicaciones para el Futuro"</h2>
+        <img src="/imagenes/IAimg.jpg" alt="Imagen de la noticia">
+        <p>En un emocionante desarrollo en el campo de la tecnología, los científicos e ingenieros de todo el mundo están logrando avances significativos en el campo de la inteligencia artificial (IA). Estos avances están dando forma al futuro de la IA y prometen transformar nuestra vida cotidiana en diversas formas.</p>
+        <a href="noticia1.html">Leer más</a>
+    </section>
+
+    <!-- Agrega más noticias utilizando la misma estructura -->
+
+    <section class="formulario">
+        <p><i>Contacte con Nosotros</i></p>
+        <form action="procesar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <div>
+        <input id="rb1" type="radio" name="estudios">
+        <label for="rb1">Recibir información sobre IA</label>
+        <br>
+        <input id="rb2" type="radio" name="estudios">
+        <label for="rb2">No recibir informacion</label>
+        <br>
+    </div>
+    <section>
+        <h1>Información de Tiempo y Hora</h1>
+        <table border="6">
+            <tr>
+                <th>Ciudad</th>
+                <th>Temp(°C)</th>
+                <th>Hora Local</th>
+            </tr>
+            <tr>
+                <td>Buenos Aires</td>
+                <td>22°C</td>
+                <td>12:30 PM</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 ActualiWeb</p>
+    </footer>
+</body>
+</html>
