@@ -33,9 +33,20 @@ img {
 }
 
 span{
-    color:crimson;
-    
-    
-    background-color: #2ecc71;
-    
+    color:rgb(69, 30, 38);
+    background-color: #9cb1ee;  
+}
+
+div h4 em {
+    color: blue;
+}
+
+.noticia {
+    background-color: rgba(183, 233, 183, 0.525);
+    text-align: center;
+    color: black;
+}
+
+h3 i {
+    color: blueviolet;
 }
