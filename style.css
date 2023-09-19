@@ -34,7 +34,8 @@ img {
 
 span{
     color:rgb(69, 30, 38);
-    background-color: #9cb1ee;  
+    background-color: #68748c40;  
+    font-weight:bold;
 }
 
 div h4 em {
