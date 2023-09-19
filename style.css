@@ -30,5 +30,8 @@ img {
     height: 150px;
     border: 1px solid rgb(34, 16, 16);
     object-fit: contain;
-    
+}
+
+span{
+    color: blueviolet;
 }
