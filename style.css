@@ -35,11 +35,13 @@ img {
 span{
     color:rgb(69, 30, 38);
     background-color: #68748c40;  
-    font-weight:bold;
+    font-weight: bold;
 }
 
 div h4 em {
     color: blue;
+    text-decoration: underline; 
+    text-transform: uppercase;
 }
 
 .noticia {
