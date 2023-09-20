@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ActualiWeb</title>
-    <!--Fuente Roboto-->
+    <!--Fuente Consolas-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Consolas:wght@100&display=swap" rel="stylesheet">
@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <main>
     <header>
         <h1>ActualiWeb</h1>
         <nav>
@@ -53,6 +54,29 @@
     </section>
     <br>
 
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <div class="contacto__info">
+            <h2 class="contacto__titulo">
+                Contacto
+            </h2>
+            <p class="contacto__texto">ActualiWeb2023</br>También podes visitar nuetras redes sociales!
+            </p>
+            <form class="contacto__contenedor">
+                <ul class="contacto__errores" id="errores-nombre"></ul>
+                <input type="text" id="nombreapellido" placeholder="Nombre" class="contacto__input">
+                <ul class="contacto__errores" id="errores-email"></ul>
+                <input type="text" id="email" placeholder="Correo Electrónico" class="contacto__input">
+                <ul class="contacto__errores" id="errores-asunto"></ul>
+                <input type="text" id="Asunto" placeholder="Asunto" class="contacto__input">
+                <ul class="contacto__errores" id="errores-mensaje"></ul>
+                <textarea id="mensaje" class="contacto__input contacto__input-mensaje" rows="10" placeholder="Mensaje"></textarea>
+                <input class="contacto__boton" type="button" value="Enviar Mensaje">
+            </form>
+        </div>
+    </section>
+    <!--
     <section class="formulario">
         <h3><i>Contacto</i></h3>
         <form action="procesar_formulario.php" method="post">
@@ -65,6 +89,8 @@
             <button type="submit">Enviar</button>
         </form>
     </section>
+
+    
     <div>
         <input id="rb1" type="radio" name="estudios">
         <label for="rb1">Recibir información sobre IA</label>
@@ -73,6 +99,8 @@
         <label for="rb2">No recibir informacion</label>
         <br>
     </div>
+    -->
+
     <section>
         <h3><i>Información de Tiempo y Hora</i></h3>
         <table border="6">
@@ -88,8 +116,26 @@
             </tr>
         </table>
     </section>
+    </main>
+    <!--
     <footer>
         <p class="noticia">&copy; 2023 ActualiWeb</p>
+    </footer>
+    -->
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <p class="footer__nombre">&copy; ActualiWeb</ p>
+            <div class="footer__logos">
+                <a href="https://www.linkedin.com/in/" target="_blank" class="footer__logo">
+                <i class="fa-brands fa-linkedin-in"></i>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/" target="_blank" class="footer__logo">
+                    <i class="fa-brands fa-github-alt"></i>
+                    GitHub
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
