@@ -12,7 +12,9 @@ h1 {
     color: black;
     text-align:center;
     background-color: rgba(237, 237, 231, 0.64);
+    
 }
+
 
 ul {
     font-size: 100%;
@@ -25,6 +27,9 @@ p {
     color: rgb(14, 40, 63);
 }
 
+strong {
+    color: rgba(5, 215, 23, 0.999);
+}
 
 
 img {
@@ -35,6 +40,15 @@ img {
     display: flex;
 }
 
+.box {
+  float: left;
+  margin-right: 15px;
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: rgb(207, 232, 220);
+  padding: 1em;
+}
 
 
 
@@ -44,6 +58,7 @@ span{
     color:rgb(69, 30, 38);
     background-color: #68748c40;  
     font-weight: bold;
+    text-decoration: underline;
 }
 
 div h4 em {
@@ -61,4 +76,8 @@ div h4 em {
 
 h3 i {
     color: blueviolet;
+}
+
+a {
+    text-decoration: none;
 }
